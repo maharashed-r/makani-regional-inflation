@@ -14,6 +14,21 @@ scripted and re-runnable end to end.
 المملكة العربية السعودية عبر 13 منطقة إدارية، باستخدام بيانات الرقم
 القياسي لأسعار المستهلك الشهرية الصادرة عن الهيئة العامة للإحصاء (GASTAT).
 
+## Regional Coverage
+
+![Regional inflation across Saudi Arabia's 13 administrative regions](figures/makani_regional_map.png)
+
+*Map of Saudi Arabia's 13 administrative regions, shaded by each region's
+mean month-over-month inflation rate over the full January 2013 – February
+2026 sample. This is a **descriptive, geographic context figure** from the
+project's exploratory phase (source: `results/figures/map.png`) — it shows
+where each region sits and its average inflation level, and it is **not**
+a map of the confirmatory spatial-dependence test. The color pattern
+should not be read as evidence of statistical or causal spatial
+relationships between neighbouring regions: this project's confirmatory
+dynamic-panel analysis (see "Main findings" below) found no robust
+spatial predictive dependence, despite the visual variation shown here.*
+
 ## Research question
 
 > Do Saudi regional inflation dynamics primarily reflect common temporal
