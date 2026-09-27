@@ -1,0 +1,59 @@
+# MAKANI Exploratory Baseline v1.0 -- SHA256 checksums
+# Generated: 2026-09-21
+# Verify from the repository root with:  sha256sum -c baseline/v1.0/MANIFEST.sha256
+#
+# ---- input files ----
+9d7b4ff3c7368fde6d0403397ad0cab8a855e283d99e71efb2177eeb29ffb1ed *data_raw/saudi_cpi_regions.csv
+25267763331d0d81a17676e55a6b7c6f9dd99742cbddcf17853ee2e56486b40c *data_raw/saudi_states_sf.rds
+#
+# ---- rebuilt cache (deterministic function of the inputs above; not a second source of truth) ----
+b6deca38d6813416390826fca55dea50a89b951e22aeb6a338135ee867b3cc01 *data_clean/saudi_cpi_clean.csv
+#
+# ---- scripts ----
+f29b5b2ef86ee85e2b109ff8e15854768f12fb5e1f8858df50ba7989a10d3b07 *scripts/01_load_data.R
+d4d84c96f0d17edbd30cd03b76f6fed8f7340447ac2c3a430ac772dc64478fca *scripts/02_clean_data.R
+3cf8a2052e8cb3409af65e19609a4c5d7b721d6e37062ffbd1f31c8af6782fb1 *scripts/03_exploratory_analysis.R
+96bbfe2bf8ad6f48b43112e71ea84fe60163f7d17bdf61991444b6a2a84c3976 *scripts/04_spatial_analysis.R
+7e330b93b7b8ed757b3b977936fe291889156d4af1f88862733ffc014423922e *scripts/05_plots.R
+1857ecfb624cd45c5c06543f094c095351313fef4bcc0dc4dca4b0938c9c968c *scripts/06_spatial_autocorrelation.R
+55414184bb3b50287669ceaec0b245d4c1badedf61261dfcbb3ab1607d06bff7 *scripts/07_sensitivity_analysis.R
+3b9772ac838cc505a5fb83f3712f70249b5d7e26ac6a61bde6954ffb0c01457b *scripts/08_spatial_regression.R
+85157b286066d06e2ca9addc709c9cc4ffc46b5a1452e92e76d258a8864f9031 *scripts/run_project.R
+#
+# ---- report source ----
+0d60868a32b2d885c84244f076f5d03c35e56d1c278a0b523e98c89d3fb11d43 *paper.qmd
+#
+# ---- environment lock (exact package versions) ----
+9e206e58fa2ed071fa54248f89816fd97c5c62efe8c467700a14ecf183a676b1 *renv.lock
+#
+# ---- output tables: current-pipeline-generated (reproduced by scripts/run_project.R + manual 08) ----
+6b82400c14cd6cf58b8274cb36d4132640d5af29b81e5efcd3340d81593466d2 *results/tables/correlation_significance.csv
+c75ccbfc61708f16c8c2168d9d86fbac50cf465c40527ad56e3b55ce007fa564 *results/tables/lisa_results.csv
+9d6ab9d58ad0cd781511bcfb0278dbdc0a26ba7e51bb71bf59c3ce4faa221e91 *results/tables/moran_by_year.csv
+2b13a75364f870c6dd9a133751dfcd859c9dee58fc7887662be4c867549474ac *results/tables/moran_mc_test.csv
+056fa25fd738c717772d5e47eabbb6142b47e2e5ea65f7a80f5b9cdb8a41545c *results/tables/moran_test.csv
+ed798444099e728ff3ebb3db88f9e00f35ac55b794260d07a07a0d9bdb43fed1 *results/tables/region_statistics.csv
+aa8c9a80a26848ef16898ddcee28489bd6fcfed2cf0193b7ff6292ea436573c1 *results/tables/regional_inflation_correlation.csv
+3c5cc6fb1b95846dcf7317f9ed3fd07988ddbd7546f2cb5099be6e6f4c7e01f7 *results/tables/sensitivity_analysis.csv
+3280a154c40317d949271f97ed103c7946e61119fb23642d95a1384b045584a2 *results/tables/spatial_model_comparison.csv
+670f54a8b5c4539714bad60b79da45cca7942686e8ec5176e0b71fe03658b47f *results/tables/weights_sensitivity.csv
+#
+# ---- output tables: ORPHANED / legacy (not written by any current script -- see MANIFEST.md) ----
+c88d8ef2f8b5fcebafbef9711b77bd15432559107566936209180f33804e9c34 *results/tables/region_inflation_stats.csv
+c88d8ef2f8b5fcebafbef9711b77bd15432559107566936209180f33804e9c34 *results/region_inflation_stats.csv
+705e1d915530b3e2974053aebe3a30b23320aa2cdfef46bb0703f84c53707a9c *results/tables/summary_statistics.csv
+#
+# ---- output figures: current-pipeline-generated ----
+e2d7908367d59f3c650d30944a9c206c4a4d2103688d6ef44edf532493330017 *results/figures/correlation.png
+62593b14968bc76ff6c99e62e8e3737dcb574c5da19045682109e70cf344244a *results/figures/histogram.png
+91df2f596277dc3bf144c593dc0d85167bc7b75ad5e30b058dd137c28e542055 *results/figures/lisa_cluster_map.png
+f3603abb06a66ef2a92d8a1d091fe23e841497fb1c2b188486b832eb397054f2 *results/figures/map.png
+8f8d54a851a7bd8ab67a12423ff3568e81b08c917123f8a23b6d8e7fb4903b4a *results/figures/moran_over_time.png
+8c3e74aa696d8a33ae272cad6bdf90e602425b9f0d989f06daccfc5784985ed2 *results/figures/moran_scatter_plot.png
+#
+# ---- output figures: ORPHANED / legacy (not written by any current script -- see MANIFEST.md) ----
+51074a5b2577dc6a6a703199b162490be26c4219aaba2734501460874bee3e48 *results/figures/inflation_correlation_heatmap.png
+3e11092cf555f023d1f0b5083325c1ed37ae5e23078f38f4c0a911fbbeb5d83f *results/figures/regional_correlation_heatmap.png
+64dbaa64f558ec2f4a88afec73d496141bdce8da5e282acccc0583d859fddd65 *results/figures/regional_inflation_facets.png
+c5b3b9074ddc84ed49e7c2f9a102e54bb48741aae27660f73293c53059d98211 *results/figures/regional_inflation_trends.png
+50f0efc666b56530e51e5a79d405e988045185845eb720ffb1f1d5b659170716 *results/figures/saudi_inflation_map.png

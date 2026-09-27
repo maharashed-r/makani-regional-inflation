@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this repository, its code, or its results, please cite it as below."
+title: "MAKANI: Regional Inflation Dynamics in Saudi Arabia — Common Temporal Variation and the Limits of Spatial Predictive Dependence"
+authors:
+  - given-names: Maha
+    family-names: Rashed
+date-released: 2026-09-27
+version: "1.0.0"
+license: MIT
+url: "https://github.com/maharashed-r/makani-regional-inflation"
+keywords:
+  - spatial econometrics
+  - panel data
+  - regional economics
+  - inflation
+  - Driscoll-Kraay
+  - Moran's I
+  - Saudi Arabia
+  - reproducible research
+  - statistical power analysis
+abstract: >
+  A reproducible dynamic-panel econometric analysis of regional consumer
+  price inflation across Saudi Arabia's 13 administrative regions
+  (January 2013 - February 2026, General Authority for Statistics data).
+  Tests whether regional inflation dynamics primarily reflect common
+  temporal variation, local persistence, or spatial predictive dependence,
+  using a two-way-fixed-effects dynamic panel model with Driscoll-Kraay
+  inference, distributed spatial lags, nonlinear and structural-shock
+  extensions, stationarity diagnostics, a full robustness battery, and a
+  calibrated Monte Carlo power/minimum-detectable-effect analysis. Finds
+  that common temporal variation explains a substantial share of regional
+  inflation variance while no robust spatial predictive dependence is
+  detected in the available 13-region panel; classifies the spatial
+  evidence as weak/suggestive but non-robust and notes that limited
+  statistical power (N=13) means small and moderate spatial effects
+  cannot be fully ruled out.

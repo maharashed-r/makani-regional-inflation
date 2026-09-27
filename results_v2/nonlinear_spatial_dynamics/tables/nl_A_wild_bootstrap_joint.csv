@@ -1,0 +1,2 @@
+"test","statistic","statistic_type","p_value_wcb","p_value_asymptotic","n_bootstrap_reps","seed"
+"Joint (delta_1, delta_2, delta_3)",1.34348827509119,"Wald chi-sq (df=3)",0.77047704770477,0.258118116804292,9999,20260921

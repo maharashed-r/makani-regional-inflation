@@ -1,0 +1,79 @@
+"Region_1","Region_2","Correlation","P_value","Significant_at_5pct","P_value_BH","Significant_BH_5pct"
+"Madinah","Riyadh",0.828,9.5e-41,TRUE,7.41e-39,TRUE
+"Al Jouf","Hail",0.817,7.67e-39,TRUE,2.99e-37,TRUE
+"Aseer","Riyadh",0.797,1.03e-35,TRUE,2.68e-34,TRUE
+"Eastern Province","Hail",0.789,1.45e-34,TRUE,2.83e-33,TRUE
+"Aseer","Madinah",0.755,2.91e-30,TRUE,4.54e-29,TRUE
+"Al Jouf","Eastern Province",0.754,4.9e-30,TRUE,6.37e-29,TRUE
+"Eastern Province","Riyadh",0.75,1.37e-29,TRUE,1.53e-28,TRUE
+"Makkah","Riyadh",0.745,4.62e-29,TRUE,4.5e-28,TRUE
+"Eastern Province","Madinah",0.713,1.19e-25,TRUE,1.03e-24,TRUE
+"Hail","Makkah",0.697,3.88e-24,TRUE,3.03e-23,TRUE
+"Aseer","Eastern Province",0.693,9.31e-24,TRUE,6.6e-23,TRUE
+"Eastern Province","Makkah",0.69,1.61e-23,TRUE,1.05e-22,TRUE
+"Najran","Tabouk",0.687,3.19e-23,TRUE,1.91e-22,TRUE
+"Eastern Province","Najran",0.676,2.4e-22,TRUE,1.34e-21,TRUE
+"Hail","Najran",0.675,3.4e-22,TRUE,1.77e-21,TRUE
+"Al Jouf","Makkah",0.669,1.03e-21,TRUE,5.02e-21,TRUE
+"Jazan","Riyadh",0.668,1.28e-21,TRUE,5.87e-21,TRUE
+"Jazan","Madinah",0.666,1.85e-21,TRUE,8.02e-21,TRUE
+"Eastern Province","Tabouk",0.657,9.98e-21,TRUE,4.1e-20,TRUE
+"Al Jouf","Tabouk",0.655,1.43e-20,TRUE,5.58e-20,TRUE
+"Makkah","Tabouk",0.652,2.25e-20,TRUE,8.36e-20,TRUE
+"Hail","Tabouk",0.646,6.08e-20,TRUE,2.16e-19,TRUE
+"Makkah","Najran",0.643,1.04e-19,TRUE,3.53e-19,TRUE
+"Eastern Province","Jazan",0.638,2.63e-19,TRUE,8.55e-19,TRUE
+"Aseer","Makkah",0.636,3.52e-19,TRUE,1.1e-18,TRUE
+"Al Jouf","Najran",0.636,3.78e-19,TRUE,1.13e-18,TRUE
+"Najran","Riyadh",0.624,2.53e-18,TRUE,7.31e-18,TRUE
+"Hail","Riyadh",0.611,1.84e-17,TRUE,5.13e-17,TRUE
+"Riyadh","Tabouk",0.588,5.44e-16,TRUE,1.46e-15,TRUE
+"Al Jouf","Riyadh",0.587,6.1e-16,TRUE,1.59e-15,TRUE
+"Aseer","Jazan",0.586,7.92e-16,TRUE,1.99e-15,TRUE
+"Jazan","Makkah",0.584,1e-15,TRUE,2.44e-15,TRUE
+"Al Qassim","Hail",0.552,6.71e-14,TRUE,1.59e-13,TRUE
+"Aseer","Tabouk",0.538,3.61e-13,TRUE,8.28e-13,TRUE
+"Al Jouf","Aseer",0.532,7.39e-13,TRUE,1.65e-12,TRUE
+"Madinah","Makkah",0.523,2.05e-12,TRUE,4.44e-12,TRUE
+"Aseer","Hail",0.52,2.81e-12,TRUE,5.83e-12,TRUE
+"Jazan","Tabouk",0.52,2.84e-12,TRUE,5.83e-12,TRUE
+"Al Jouf","Jazan",0.518,3.82e-12,TRUE,7.64e-12,TRUE
+"Hail","Jazan",0.512,7.21e-12,TRUE,1.41e-11,TRUE
+"Hail","Madinah",0.505,1.52e-11,TRUE,2.89e-11,TRUE
+"Al Qassim","Tabouk",0.493,5.53e-11,TRUE,1.03e-10,TRUE
+"Aseer","Najran",0.489,8.47e-11,TRUE,1.54e-10,TRUE
+"Al Jouf","Madinah",0.48,2e-10,TRUE,3.55e-10,TRUE
+"Madinah","Najran",0.472,4.21e-10,TRUE,7.3e-10,TRUE
+"Madinah","Tabouk",0.471,4.82e-10,TRUE,8.05e-10,TRUE
+"Jazan","Najran",0.471,4.85e-10,TRUE,8.05e-10,TRUE
+"Al Qassim","Makkah",0.46,1.37e-09,TRUE,2.23e-09,TRUE
+"Al Qassim","Najran",0.441,7.62e-09,TRUE,1.21e-08,TRUE
+"Al Qassim","Eastern Province",0.414,6.9e-08,TRUE,1.08e-07,TRUE
+"Al Jouf","Al Qassim",0.398,2.52e-07,TRUE,3.85e-07,TRUE
+"Al Jouf","Northern Borders",0.38,8.87e-07,TRUE,1.33e-06,TRUE
+"Al Baha","Makkah",0.372,1.58e-06,TRUE,2.33e-06,TRUE
+"Al Qassim","Riyadh",0.343,1.1e-05,TRUE,1.59e-05,TRUE
+"Al Baha","Eastern Province",0.342,1.13e-05,TRUE,1.6e-05,TRUE
+"Hail","Northern Borders",0.336,1.7e-05,TRUE,2.37e-05,TRUE
+"Al Qassim","Jazan",0.331,2.29e-05,TRUE,3.13e-05,TRUE
+"Al Baha","Hail",0.322,3.87e-05,TRUE,5.2e-05,TRUE
+"Al Baha","Al Jouf",0.318,5.08e-05,TRUE,6.72e-05,TRUE
+"Al Baha","Riyadh",0.317,5.21e-05,TRUE,6.77e-05,TRUE
+"Al Baha","Aseer",0.299,0.000141,TRUE,0.00018,TRUE
+"Al Baha","Najran",0.298,0.00015,TRUE,0.000189,TRUE
+"Makkah","Northern Borders",0.295,0.000179,TRUE,0.000222,TRUE
+"Al Baha","Tabouk",0.293,0.000191,TRUE,0.000233,TRUE
+"Najran","Northern Borders",0.288,0.00026,TRUE,0.000312,TRUE
+"Al Baha","Jazan",0.268,7e-04,TRUE,0.000827,TRUE
+"Northern Borders","Tabouk",0.266,0.00076,TRUE,0.000885,TRUE
+"Al Qassim","Aseer",0.265,0.000812,TRUE,0.000931,TRUE
+"Eastern Province","Northern Borders",0.247,0.00184,TRUE,0.00208,TRUE
+"Al Baha","Al Qassim",0.234,0.00318,TRUE,0.00354,TRUE
+"Al Qassim","Northern Borders",0.219,0.00596,TRUE,0.00655,TRUE
+"Al Baha","Madinah",0.192,0.016,TRUE,0.0173,TRUE
+"Al Qassim","Madinah",0.191,0.0163,TRUE,0.0174,TRUE
+"Al Baha","Northern Borders",0.166,0.0374,TRUE,0.0394,TRUE
+"Northern Borders","Riyadh",0.094,0.244,FALSE,0.254,FALSE
+"Jazan","Northern Borders",0.082,0.308,FALSE,0.316,FALSE
+"Aseer","Northern Borders",0.08,0.322,FALSE,0.326,FALSE
+"Madinah","Northern Borders",-0.056,0.49,FALSE,0.49,FALSE

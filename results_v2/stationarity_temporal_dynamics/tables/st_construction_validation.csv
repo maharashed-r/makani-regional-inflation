@@ -1,0 +1,7 @@
+"check","pass"
+"W_order_matches_region_id",TRUE
+"no_duplicate_region_month_k3",TRUE
+"no_duplicate_region_month_ext",TRUE
+"own_lag_12_implies_own_lag_6_available",TRUE
+"seasonal_lag_is_exactly_12_months",TRUE
+"no_lookahead_lags_strictly_tminusk",TRUE

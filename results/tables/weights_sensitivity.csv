@@ -1,0 +1,5 @@
+"Weight_Matrix","Avg_Neighbors","Moran_I","Z_value","P_value"
+"Queen contiguity",4,0.204,1.68,0.046
+"Rook contiguity",4,0.204,1.68,0.046
+"K-nearest neighbours (k=4)",4,0.071,0.99,0.161
+"Distance band",4.15,0.014,0.56,0.287

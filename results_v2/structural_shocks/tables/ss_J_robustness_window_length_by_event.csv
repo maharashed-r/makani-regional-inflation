@@ -1,0 +1,10 @@
+"event_id","window_spec","statistic","df","p_value_asymptotic"
+"E1","Primary (event month + 2)",2.50008484256777,3,0.475275750586307
+"E1","Sensitivity: event month only",6.8417896510946,3,0.07711513492593
+"E1","Sensitivity: event month + 5",14.1084645861827,3,0.00276117044186017
+"E2","Primary (event month + 2)",2.42735332237784,3,0.488563122278739
+"E2","Sensitivity: event month only",725.869873472344,3,5.15615792284655e-157
+"E2","Sensitivity: event month + 5",8.48274425042483,3,0.0370204941881123
+"E3","Primary (event month + 2)",5.41890928562392,3,0.143569993893185
+"E3","Sensitivity: event month only",393.206437330431,3,6.55628301367902e-85
+"E3","Sensitivity: event month + 5",30.9011601558399,3,8.91771950942939e-07

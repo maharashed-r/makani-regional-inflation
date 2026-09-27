@@ -1,0 +1,4 @@
+"spec","estimate","p_value_asymptotic_dk"
+"Theta_3 (K=3)",-0.00983022402779785,0.908701209961269
+"Theta_6 (K=6, first 3 lags only)",-0.00227798778820383,NA
+"Theta_6 (K=6, full)",-0.0378068112038814,0.728447799378819

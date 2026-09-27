@@ -1,0 +1,4 @@
+"series","CIPS_statistic","n_units","pmax_lag","informal_comparison_note"
+"CPI level",-1.34406378138171,13,13,"Compared informally to the drift-spec ADF 5% critical value (-2.86); exact Pesaran (2007) N=13 critical values not transcribed here -- see header note 3"
+"Inflation (inflation_mom)",-2.71545056281494,13,13,"Compared informally to the drift-spec ADF 5% critical value (-2.86); exact Pesaran (2007) N=13 critical values not transcribed here -- see header note 3"
+"Stage-14 K=3 reference residuals",-2.77051778875095,13,13,"Compared informally to the drift-spec ADF 5% critical value (-2.86); exact Pesaran (2007) N=13 critical values not transcribed here -- see header note 3"

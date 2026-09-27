@@ -1,0 +1,5 @@
+"method","joint_statistic","p_value"
+"Driscoll-Kraay (primary)",3.54006936606191,0.31560232233548
+"Region-clustered (HC1)",2.27597151678055,0.517139749084945
+"Classical (diagnostic only)",0.830685278225495,0.842114310368769
+"Wild cluster bootstrap (B=9999)",2.27597151678055,0.575357535753575

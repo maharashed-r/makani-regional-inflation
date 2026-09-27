@@ -1,0 +1,131 @@
+MAKANI v2 Panel Validation Report
+Generated: 2026-09-21 14:58:21 +0300
+======================================================================
+
+A. PANEL STRUCTURE
+  [PASS] exactly 13 regions in panel (found 13)
+  [PASS] exactly 13 regions in crosswalk (found 13)
+  [PASS] unique region_id x date (duplicate rows found: 0)
+  [PASS] balanced panel (all regions have the same month count: 158)
+  [PASS] every region's date sequence matches the expected contiguous monthly run (13/13 regions)
+
+  Region balance table (months per region_id):
+    R01    158 months
+    R02    158 months
+    R03    158 months
+    R04    158 months
+    R05    158 months
+    R06    158 months
+    R07    158 months
+    R08    158 months
+    R09    158 months
+    R10    158 months
+    R11    158 months
+    R12    158 months
+    R13    158 months
+
+  First / last date by region:
+    R01    first=2013-01-01  last=2026-02-01
+    R02    first=2013-01-01  last=2026-02-01
+    R03    first=2013-01-01  last=2026-02-01
+    R04    first=2013-01-01  last=2026-02-01
+    R05    first=2013-01-01  last=2026-02-01
+    R06    first=2013-01-01  last=2026-02-01
+    R07    first=2013-01-01  last=2026-02-01
+    R08    first=2013-01-01  last=2026-02-01
+    R09    first=2013-01-01  last=2026-02-01
+    R10    first=2013-01-01  last=2026-02-01
+    R11    first=2013-01-01  last=2026-02-01
+    R12    first=2013-01-01  last=2026-02-01
+    R13    first=2013-01-01  last=2026-02-01
+
+B. CPI INTEGRITY
+  [PASS] CPI column is numeric
+  [PASS] CPI strictly positive and finite for all 2054 rows (violations: 0)
+  [PASS] no impossible dates (month in 1-12, all dates parse)
+  [PASS] no accidental annual-average rows in panel (12 annual rows existed in source and were excluded; panel row count 2054 == 13 x 158 months)
+  [PASS] no text-sort chronology problem (dates monotonically increasing within every region)
+  [PASS] no silent coercion failures (no NA in year/month/CPI)
+
+C. INFLATION INTEGRITY
+    sample 1: region=R04 date=2020-07-01 recomputed=6.3652040902 stored=6.3652040902 match=TRUE
+    sample 2: region=R13 date=2024-06-01 recomputed=0.2397979893 stored=0.2397979893 match=TRUE
+    sample 3: region=R03 date=2013-08-01 recomputed=0.2904283548 stored=0.2904283548 match=TRUE
+    sample 4: region=R08 date=2019-07-01 recomputed=-0.0259421003 stored=-0.0259421003 match=TRUE
+    sample 5: region=R07 date=2026-01-01 recomputed=-0.0479358119 stored=-0.0479358119 match=TRUE
+  [PASS] manual MoM recompute matches stored value on 5/5 sampled rows
+    sample 1: region=R09 date=2020-12-01 recomputed=4.8893674107 stored=4.8893674107 match=TRUE
+    sample 2: region=R09 date=2014-02-01 recomputed=1.7509172489 stored=1.7509172489 match=TRUE
+    sample 3: region=R05 date=2018-02-01 recomputed=1.2272972319 stored=1.2272972319 match=TRUE
+    sample 4: region=R01 date=2018-01-01 recomputed=0.2317907618 stored=0.2317907618 match=TRUE
+    sample 5: region=R08 date=2024-10-01 recomputed=3.0010957856 stored=3.0010957856 match=TRUE
+  [PASS] manual YoY recompute matches stored value on 5/5 sampled rows
+  [PASS] first MoM observation is structurally NA in every region, and no other MoM value is NA (13/13 regions)
+  [PASS] first 12 YoY observations are structurally NA in every region, and no other YoY value is NA (13/13 regions)
+
+D. SPATIAL KEY INTEGRITY
+  [PASS] every crosswalk region_name_gastat_en matches a raw CPI column, and vice versa
+  [PASS] every panel region maps to exactly one geometry (unmatched: 0)
+  [PASS] no duplicate geometry mappings (each geometry claimed at most once)
+  [PASS] all 13 geometries claimed by exactly one region (claimed: 13/13)
+
+  Geometry match table:
+    R01    Al Baha              -> Al Bahah                     matched=TRUE
+    R02    Al Jouf              -> Al Jawf                      matched=TRUE
+    R03    Al Qassim            -> Al Quassim                   matched=TRUE
+    R04    Aseer                -> `Asir                        matched=TRUE
+    R05    Eastern Province     -> Ash Sharqiyah                matched=TRUE
+    R06    Hail                 -> Ha'il                        matched=TRUE
+    R07    Jazan                -> Jizan                        matched=TRUE
+    R08    Madinah              -> Al Madinah                   matched=TRUE
+    R09    Makkah               -> Makkah                       matched=TRUE
+    R10    Najran               -> Najran                       matched=TRUE
+    R11    Northern Borders     -> Al Hudud ash Shamaliyah      matched=TRUE
+    R12    Riyadh               -> Ar Riyad                     matched=TRUE
+    R13    Tabouk               -> Tabuk                        matched=TRUE
+
+E. PERMANENT region_id MAPPING
+  [PASS] registry has exactly 13 unique region_id values
+  [PASS] every region matches its predefined permanent region_id in the registry (13/13)
+  [PASS] built panel's region_id matches the same permanent mapping (13/13)
+  [PASS] scripts/09_panel_build.R no longer derives region_id from alphabetical sort at runtime
+
+  Permanent region_id mapping:
+    R01    Al Baha
+    R02    Al Jouf
+    R03    Al Qassim
+    R04    Aseer
+    R05    Eastern Province
+    R06    Hail
+    R07    Jazan
+    R08    Madinah
+    R09    Makkah
+    R10    Najran
+    R11    Northern Borders
+    R12    Riyadh
+    R13    Tabouk
+
+  Provenance check: Arabic-name / ISO columns are not mislabelled as GASTAT-sourced:
+  [PASS] crosswalk exposes region_name_ar_naturalearth / iso_3166_2_naturalearth, not a GASTAT-implying name
+
+F. MISSING-VALUE SUMMARY
+    region_id       NA count = 0
+    Region          NA count = 0
+    date            NA count = 0
+    year            NA count = 0
+    month           NA count = 0
+    CPI             NA count = 0
+    inflation_mom   NA count = 13
+    inflation_yoy   NA count = 156
+    Expected inflation_mom NA count = 13 (one structural first-obs per region): PASS
+    Expected inflation_yoy NA count = 156 (12 structural first-obs per region x 13 regions): PASS
+
+G. NATIONAL CPI DIFFERENTIAL
+  No official national Saudi CPI series exists anywhere in this repository
+  (data_raw/ contains only the 13-region file and the cached shapefile).
+  inflation_diff_mom / inflation_diff_yoy were NOT constructed, per instruction
+  not to fabricate a national series or silently use an unweighted 13-region
+  mean as an unlabelled proxy. See data_v2/README.md.
+
+======================================================================
+OVERALL: 24/24 checks passed

@@ -1,0 +1,5 @@
+"model","n_regions_LjungBox_sig_raw_05","n_regions_LjungBox_sig_BH_05","n_regions_LjungBox_sig_Holm_05","n_regions_total"
+"Stage 14 linear K=3 reference (M4)",6,5,3,13
+"Stage 15 regime-interaction model",6,4,2,13
+"Stage 16 all-events combined model",5,3,3,13
+"Stage 17 preferred (T1: own lag 1-3 + 6)",7,5,2,13

@@ -1,0 +1,3 @@
+"spec","n_obs","statistic","df","p_value_asymptotic"
+"Primary (all observations retained)",2002,10.2130739729533,3,0.0168391139422568
+"Excluding top 1% Cook's distance (side-check only)",1981,11.04878508763,3,0.0114649799569999

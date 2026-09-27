@@ -1,0 +1,14 @@
+"Scenario","N_months_excluded","Average_Correlation","Maximum_Correlation","Moran_I","Moran_p_value"
+"Full Sample",0,0.486,0.828,0.204,0.046
+"Excl. Jan 2018 (month)",1,0.535,0.822,0.119,0.106
+"Excl. Jul 2020 (month)",1,0.299,0.854,0.195,0.0526
+"Excl. Both (month)",2,0.298,0.693,0.092,0.144
+"Excl. Jan 2018 (+/-1 month)",3,0.537,0.833,0.127,0.0931
+"Excl. Jul 2020 (+/-1 month)",3,0.298,0.854,0.225,0.0359
+"Excl. Both (+/-1 month)",6,0.298,0.692,0.153,0.0706
+"Excl. Jan 2018 (quarter)",3,0.536,0.828,0.11,0.114
+"Excl. Jul 2020 (quarter)",3,0.3,0.857,0.211,0.0427
+"Excl. Both (quarter)",6,0.301,0.686,0.108,0.121
+"Excl. Jan 2018 (6 months)",6,0.538,0.826,0.088,0.142
+"Excl. Jul 2020 (6 months)",6,0.304,0.856,0.218,0.0389
+"Excl. Both (6 months)",12,0.302,0.68,0.124,0.101

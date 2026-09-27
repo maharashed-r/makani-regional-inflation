@@ -1,0 +1,14 @@
+"check","pass"
+"own_lag_1_independent_recompute_matches",TRUE
+"own_lag_3_independent_recompute_matches",TRUE
+"own_lag_6_independent_recompute_matches",TRUE
+"w_lag_1_independent_recompute_matches",TRUE
+"w_lag_3_independent_recompute_matches",TRUE
+"w_lag_6_independent_recompute_matches",TRUE
+"no_lookahead_by_construction",TRUE
+"W_order_matches_region_id",TRUE
+"one_row_per_region_month",TRUE
+"no_region_id_mixing",TRUE
+"first_1_lags_missing_as_expected",TRUE
+"first_3_lags_missing_as_expected",TRUE
+"first_6_lags_missing_as_expected",TRUE

@@ -1,0 +1,10 @@
+"check","pass"
+"region_order_matches_frozen_registry",TRUE
+"W_queen_row_standardized",TRUE
+"W_knn_row_standardized",TRUE
+"W_dist_row_standardized",TRUE
+"k3_sample_matches_stage14",TRUE
+"no_duplicate_region_month_k3",TRUE
+"no_duplicate_region_month_horizon",TRUE
+"bootstrap_seed_is_20260921",TRUE
+"lags_strictly_backward_looking",TRUE

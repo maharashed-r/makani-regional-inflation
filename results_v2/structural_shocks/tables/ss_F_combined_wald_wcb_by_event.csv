@@ -1,0 +1,4 @@
+"event_id","event_name","statistic","df","p_value_asymptotic","p_value_wcb","n_bootstrap_reps","evidence_source"
+"E1","E1: Energy Price Reform (Wave 1)",44.1829976367635,6,6.79942101110058e-08,0.0930465232616308,1999,"neither"
+"E2","E2: Fiscal Reform Package (VAT Introduction + Energy Price Reform Wave 2)",51.0976347509993,6,2.83116827501407e-09,0.569284642321161,1999,"neither"
+"E3","E3: VAT Rate Increase (5% -> 15%)",53.5028959903257,6,9.29177323239082e-10,0.965482741370685,1999,"neither"

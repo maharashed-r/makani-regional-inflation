@@ -1,0 +1,2 @@
+"n_regions","n_months","total_obs","obs_per_region_min","obs_per_region_max","balanced","first_date","last_date","n_dropped"
+13,156,2028,156,156,TRUE,"2013-03-01","2026-02-01",26

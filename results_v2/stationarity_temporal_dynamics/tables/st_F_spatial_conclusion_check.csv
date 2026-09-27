@@ -1,0 +1,3 @@
+"model","joint_statistic","df","p_value_asymptotic","cumulative_spatial_effect","cumulative_ci_low","cumulative_ci_high"
+"S0 / Stage-14-equivalent (on lag-12-common sample)",2.77909143768396,3,0.426953414415862,NA,NA,NA
+"Stage-17 preferred (T1)",3.15043244603676,3,0.369007933965432,-0.0043619004120354,-0.173741688222754,0.165017887398684

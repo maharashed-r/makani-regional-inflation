@@ -1,0 +1,6 @@
+"check","result"
+"theta_k signs stable across Queen/KNN/distance (K=3)",FALSE
+"Cumulative Theta_3 sign stable across Queen/KNN/distance",FALSE
+"Joint spatial-lag test significant at 5% (K=3, WCB)",FALSE
+"Joint spatial-lag test significant at 5% (K=6, WCB)",FALSE
+"Conclusions depend materially on K=3 vs K=6",FALSE

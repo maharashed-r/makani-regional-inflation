@@ -1,0 +1,10 @@
+"test","event_id","primary_p_value_type","raw_p_value","p_BH","p_Holm","sig_raw_05","sig_BH_05","sig_Holm_05"
+"E1 -- D: spatial-dynamics stability","E1","Wild cluster bootstrap (B=9999)",0.975997599759976,0.975997599759976,1,FALSE,FALSE,FALSE
+"E1 -- E: own-dynamics stability","E1","Wild cluster bootstrap (B=1999)",0.306653326663332,0.975997599759976,1,FALSE,FALSE,FALSE
+"E1 -- F: combined parameter-stability","E1","Wild cluster bootstrap (B=1999)",0.0930465232616308,0.837418709354677,0.837418709354677,FALSE,FALSE,FALSE
+"E2 -- D: spatial-dynamics stability","E2","Wild cluster bootstrap (B=9999)",0.97039703970397,0.975997599759976,1,FALSE,FALSE,FALSE
+"E2 -- E: own-dynamics stability","E2","Wild cluster bootstrap (B=1999)",0.403701850925463,0.975997599759976,1,FALSE,FALSE,FALSE
+"E2 -- F: combined parameter-stability","E2","Wild cluster bootstrap (B=1999)",0.569284642321161,0.975997599759976,1,FALSE,FALSE,FALSE
+"E3 -- D: spatial-dynamics stability","E3","Wild cluster bootstrap (B=9999)",0.646064606460646,0.975997599759976,1,FALSE,FALSE,FALSE
+"E3 -- E: own-dynamics stability","E3","Wild cluster bootstrap (B=1999)",0.952976488244122,0.975997599759976,1,FALSE,FALSE,FALSE
+"E3 -- F: combined parameter-stability","E3","Wild cluster bootstrap (B=1999)",0.965482741370685,0.975997599759976,1,FALSE,FALSE,FALSE

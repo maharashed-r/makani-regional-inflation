@@ -1,0 +1,7 @@
+"check","pass"
+"W_order_matches_region_id",TRUE
+"no_duplicate_region_month",TRUE
+"w_lag_avg_reconstructs_from_pos_neg",TRUE
+"national_infl_constant_within_month",TRUE
+"regime_dummy_is_deterministic_function_of_date",TRUE
+"no_lookahead_state_var_contemporaneous_not_future",TRUE

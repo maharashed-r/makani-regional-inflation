@@ -1,0 +1,4 @@
+"test","statistic","statistic_type","p_value_wcb","p_value_asymptotic","n_bootstrap_reps"
+"own_lag_2 (individual)",2.3649077273361,"t",0.0770770770770771,NA,999
+"w_lag_2 (individual)",1.17436661342148,"t",0.242242242242242,NA,999
+"Joint (own_lag_2 & w_lag_2)",7.4646830210251,"Wald chi-sq (df=2)",0.0960960960960961,0.0239367220804845,999

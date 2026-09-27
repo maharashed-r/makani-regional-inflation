@@ -1,0 +1,4 @@
+"definition","cutoff","n_high_regime_months","n_total_months"
+"Top tercile (primary)",0.147961971994769,51,154
+"Top quartile (robustness)",0.214838046718595,39,154
+"Mean + 1 SD (robustness)",0.713155701132406,4,154

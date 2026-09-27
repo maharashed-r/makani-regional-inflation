@@ -1,0 +1,2 @@
+B: Weak/suggestive but non-robust spatial dependence
+T2: Moderate but non-decisive temporal persistence

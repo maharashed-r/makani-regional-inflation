@@ -1,0 +1,6 @@
+"test","primary_p_value_type","raw_p_value","p_BH","p_Holm","sig_raw_05","sig_BH_05","sig_Holm_05"
+"A: Joint regime interaction (delta_1=delta_2=delta_3=0)","Wild cluster bootstrap (B=9999)",0.77047704770477,0.77047704770477,1,FALSE,FALSE,FALSE
+"B: Joint spline nonlinearity","Driscoll-Kraay asymptotic",0.0168391139422568,0.0841955697112842,0.0841955697112842,TRUE,FALSE,FALSE
+"C: Joint quadratic (linear+quadratic)","Driscoll-Kraay asymptotic",0.0757922976037496,0.189480744009374,0.303169190414998,FALSE,FALSE,FALSE
+"D: Threshold existence (bootstrap)","Wild cluster bootstrap (B=499)",0.753507014028056,0.77047704770477,1,FALSE,FALSE,FALSE
+"E: Asymmetry equality (pos=neg)","Wild cluster bootstrap (B=999)",0.615615615615616,0.77047704770477,1,FALSE,FALSE,FALSE

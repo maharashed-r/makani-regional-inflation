@@ -1,0 +1,5 @@
+"series","spec","conclusion","n_regions"
+"CPI level","drift","Non-stationary (ADF and KPSS agree)",13
+"CPI level","trend","Non-stationary (ADF and KPSS agree)",13
+"Inflation (inflation_mom)","drift","Stationary (ADF and KPSS agree)",13
+"Stage-14 K=3 reference residuals","drift","Stationary (ADF and KPSS agree)",13

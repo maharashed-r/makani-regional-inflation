@@ -1,0 +1,4 @@
+"Model","Parameter","Estimate","LR_p_value","AIC"
+"OLS (no spatial term)","-",NA,NA,-151.61
+"Spatial Lag (SAR)","rho",0.433,0.262,-150.87
+"Spatial Error (SEM)","lambda",0.433,0.262,-150.87

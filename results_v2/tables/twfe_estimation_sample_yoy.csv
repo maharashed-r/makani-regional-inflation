@@ -1,0 +1,2 @@
+"n_regions","n_months","total_obs","obs_per_region_min","obs_per_region_max","balanced","first_date","last_date","n_dropped","dropped_reason"
+13,146,1898,146,146,TRUE,"2014-01-01","2026-02-01",156,"All 156 dropped rows are each region's structural first-12-months (2013-01-01 to 2013-12-01), where inflation_yoy is undefined (no observation 12 months earlier exists) -- expected."

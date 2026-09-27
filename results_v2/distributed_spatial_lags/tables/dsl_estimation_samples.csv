@@ -1,0 +1,3 @@
+"sample","n_regions","n_months","total_obs","obs_per_region_min","obs_per_region_max","balanced","first_date","last_date"
+"K=3 common sample (M0-M4)",13,154,2002,154,154,TRUE,"2013-05-01","2026-02-01"
+"K=6 robustness sample",13,151,1963,151,151,TRUE,"2013-08-01","2026-02-01"

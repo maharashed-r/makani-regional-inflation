@@ -1,0 +1,2 @@
+"function_used","package_version","cluster_variable","order_by_variable","kernel","lag_rule","lag_resolved_value","aggregate_cross_sectional","finite_sample_adjust_n_over_n_minus_k","fix_psd","plm_vcovSCC_cross_check"
+"sandwich::vcovPL (via meatPL)","3.1.1","region_id_f (N=13 panel units)","date_f (T=156 periods)","Bartlett","NW1987 (default, passed explicitly)",3,TRUE,TRUE,FALSE,"NOT AVAILABLE -- plm not installed in locked renv library; not installed per instruction, documented as a limitation"

@@ -1,0 +1,2 @@
+"method","theta_estimate","t_observed","p_value_wcb","n_bootstrap_reps","seed"
+"Wild cluster bootstrap (Rademacher, restricted under M1, B=9999)",-0.00418961243186379,-0.0932515180550328,0.919191919191919,9999,20260921

@@ -1,0 +1,32 @@
+MAKANI v2 Stage 1 (TWFE + monthly residual spatial tests) -- interpretation scope
+
+What the evidence supports:
+- Month effects dominate persistent region effects in the TWFE variance
+  decomposition (42.9% vs 0.45% of total MoM inflation variance).
+- Contemporaneous monthly cross-sectional spatial autocorrelation, measured by
+  Global Moran's I on each month's 13-region cross-section, is weak and does
+  not survive multiple-testing correction (0/157 months survive BH or Holm,
+  raw or residual).
+- Removing region and month fixed effects changes monthly Moran's I very
+  little (mean I - E[I] is close between raw and residual series).
+
+What this stage does NOT establish, and should not be read as showing:
+- That spatial processes do not exist in Saudi regional inflation. This
+  analysis tests CONTEMPORANEOUS (same-month) cross-sectional spatial
+  dependence only.
+- It does not rule out lagged spatial transmission (e.g. a shock in region
+  A affecting region B with a one- or multi-month delay).
+- It does not rule out category-specific spatial dependence (e.g. housing or
+  food sub-indices could show spatial structure even if headline MoM does not).
+- It does not rule out heterogeneous regional exposure to common national
+  shocks (a region-specific loading on tau_t is a distinct hypothesis from
+  region-to-region spillover, and is not tested here).
+- It does not rule out lower-frequency spatial dynamics (the long-run,
+  full-sample-mean Moran's I in the frozen v1.0 baseline, I=0.204, tests a
+  different quantity -- a single cross-section of 13 long-run averages --
+  not the same thing as 157 separate monthly cross-sections, and is not
+  contradicted or confirmed by the month-by-month result here.
+
+Accordingly, none of the tables or figures in this stage should be cited as
+evidence for or against dynamic, lagged, or category-specific spatial
+transmission -- those remain open questions for later stages.

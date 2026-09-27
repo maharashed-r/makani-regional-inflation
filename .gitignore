@@ -1,0 +1,27 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.positai
+
+# Microsoft Word lock files
+~$*.docx
+
+*.tmp
+
+# Rendered Quarto output (regenerate with: quarto render paper.qmd)
+paper.html
+paper_files/
+
+# Local-machine override (e.g. RENV_PATHS_LIBRARY workaround for non-ASCII
+# project paths) -- do not commit, it is machine-specific
+.Renviron
+
+# renv
+renv/library/
+renv/local/
+renv/cellar/
+renv/lock/
+renv/python/
+renv/sandbox/
+renv/staging/

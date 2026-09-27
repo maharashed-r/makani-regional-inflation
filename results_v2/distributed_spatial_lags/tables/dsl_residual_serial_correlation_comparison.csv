@@ -1,0 +1,3 @@
+"model","n_regions_LjungBox_sig_raw_05","n_regions_LjungBox_sig_BH_05","n_regions_LjungBox_sig_Holm_05","n_regions_total"
+"Lag-1 hardened stage (M2, scripts/13, reference)",8,6,4,13
+"K=3 distributed model (M4, this stage)",6,5,3,13

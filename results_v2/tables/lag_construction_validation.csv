@@ -1,0 +1,8 @@
+"check","pass"
+"own_lag_matches_independent_join",TRUE
+"w_lag1_uses_exactly_t_minus_1",TRUE
+"w_lag1_independent_recompute_matches",TRUE
+"W_row_col_order_matches_region_id",TRUE
+"one_spatial_lag_per_region_month",TRUE
+"no_region_id_mixing",TRUE
+"first_lag_missing_as_expected",TRUE

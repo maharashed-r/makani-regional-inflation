@@ -1,0 +1,4 @@
+"Theta_3","n_reps","wcb_B","power_DK","power_WCB","agreement_within_2SE"
+0,100,199,0.07,0.1,TRUE
+0.1,100,199,0.18,0.2,TRUE
+0.2,100,199,0.52,0.45,TRUE

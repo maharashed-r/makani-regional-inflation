@@ -1,0 +1,5 @@
+"spec","n_edges_undirected","mean_neighbors","min_neighbors","max_neighbors","islands"
+"Queen contiguity",26,4,2,8,0
+"Rook contiguity",26,4,2,8,0
+"KNN (k=4, directed)",52,4,4,4,0
+"Distance band (1.05x max nearest-neighbour dist)",27,4.15384615384615,1,6,0

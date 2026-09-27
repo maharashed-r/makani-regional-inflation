@@ -1,0 +1,3 @@
+"test","statistic","statistic_type","p_value_wcb","p_value_asymptotic","n_bootstrap_reps","seed"
+"Joint (theta_1..theta_6)",29.1526322119906,"Wald chi-sq (df=6)",0.123061530765383,0.408072760070608,1999,20260921
+"Cumulative Theta_6",-0.0378068112038814,"sum(theta_k)",0.825912956478239,0.728447799378819,1999,20260921

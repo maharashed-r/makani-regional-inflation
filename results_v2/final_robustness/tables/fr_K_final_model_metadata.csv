@@ -1,0 +1,2 @@
+"final_model_spec","N_regions","T_months","total_obs","R2","within_R2","AIC","BIC","wcb_joint_p_value_B9999"
+"inflation_mom ~ region_id_f + date_f + own_lag_1 + own_lag_2 + own_lag_3 + w_lag_1 + w_lag_2 + w_lag_3",13,154,2002,0.453988175196735,0.453988175196735,4476.07963761362,5445.20867667202,0.575357535753575

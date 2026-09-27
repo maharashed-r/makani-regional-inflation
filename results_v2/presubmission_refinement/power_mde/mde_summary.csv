@@ -1,0 +1,8 @@
+"quantity","value","note"
+"MDE_80 (simulated, primary curve)",NA,"80% power NOT reached within the pre-specified grid (|Theta_3] <= 0.20) -- reported as exceeding the grid, not extrapolated"
+"MDE_90 (simulated, primary curve)",NA,"90% power NOT reached within the pre-specified grid"
+"MDE_80 (analytic sanity check)",0.24015478269628,"single-parameter z-approximation using the LOCKED observed DK SE; sanity check only, not a substitute for the simulation"
+"MDE_90 (analytic sanity check)",0.277866065791686,"single-parameter z-approximation using the LOCKED observed DK SE; sanity check only"
+"Max power achieved within the pre-specified grid (|Theta_3|<=0.20)",0.57675,""
+"Observed Theta_3 estimate (Stage 18, locked)",-0.00983022402779785,"read-only from fr_K_final_result_table.csv (Stage 18)"
+"Observed Theta_3 DK SE (Stage 18, locked)",0.0857210343428491,"read-only from fr_K_final_result_table.csv (Stage 18)"

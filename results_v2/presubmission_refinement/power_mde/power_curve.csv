@@ -1,0 +1,32 @@
+"Theta_3","lag_shape","block_len","n_reps","power","mc_se"
+-0.2,"Equal (primary)",6,2000,0.582,0.0110289618731774
+-0.15,"Equal (primary)",6,2000,0.3615,0.0107428522748849
+-0.1,"Equal (primary)",6,2000,0.1955,0.00886791266307918
+-0.075,"Equal (primary)",6,2000,0.133,0.00759312188760328
+-0.05,"Equal (primary)",6,2000,0.0935,0.00650990591329859
+-0.025,"Equal (primary)",6,2000,0.067,0.00559066185706129
+0,"Equal (primary)",6,2000,0.0615,0.00537204569973116
+0.025,"Equal (primary)",6,2000,0.072,0.0057799653978203
+0.05,"Equal (primary)",6,2000,0.09,0.00639921870231046
+0.075,"Equal (primary)",6,2000,0.133,0.00759312188760328
+0.1,"Equal (primary)",6,2000,0.189,0.00875439889427024
+0.15,"Equal (primary)",6,2000,0.369,0.0107897868375608
+0.2,"Equal (primary)",6,2000,0.5715,0.0110654360510556
+-0.2,"Front-loaded (sensitivity)",6,1000,0.661,0.0149692685192029
+-0.15,"Front-loaded (sensitivity)",6,1000,0.457,0.0157528092732693
+-0.1,"Front-loaded (sensitivity)",6,1000,0.245,0.0136005514594078
+-0.075,"Front-loaded (sensitivity)",6,1000,0.16,0.0115931013969515
+-0.05,"Front-loaded (sensitivity)",6,1000,0.099,0.00944452222190196
+-0.025,"Front-loaded (sensitivity)",6,1000,0.061,0.00756828910652864
+0,"Front-loaded (sensitivity)",6,1000,0.055,0.00720936890441875
+0.025,"Front-loaded (sensitivity)",6,1000,0.066,0.00785136930732468
+0.05,"Front-loaded (sensitivity)",6,1000,0.117,0.010164201887015
+0.075,"Front-loaded (sensitivity)",6,1000,0.151,0.0113224997240009
+0.1,"Front-loaded (sensitivity)",6,1000,0.266,0.0139729739139526
+0.15,"Front-loaded (sensitivity)",6,1000,0.467,0.0157769135131052
+0.2,"Front-loaded (sensitivity)",6,1000,0.667,0.0149033888763596
+-0.2,"Equal (block-length sensitivity)",12,500,0.578,0.0220869192057199
+-0.1,"Equal (block-length sensitivity)",12,500,0.194,0.0176841171676734
+0,"Equal (block-length sensitivity)",12,500,0.06,0.0106207344378814
+0.1,"Equal (block-length sensitivity)",12,500,0.158,0.0163117135825762
+0.2,"Equal (block-length sensitivity)",12,500,0.574,0.0221144296783797

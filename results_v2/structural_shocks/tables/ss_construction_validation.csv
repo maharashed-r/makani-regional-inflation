@@ -1,0 +1,8 @@
+"check","pass"
+"W_order_matches_region_id",TRUE
+"no_duplicate_region_month",TRUE
+"all_three_events_in_panel_range",TRUE
+"event_windows_are_date_only_not_region_specific",TRUE
+"sens1_nested_in_primary_nested_in_sens2",TRUE
+"no_lookahead_own_spatial_lags_strictly_tminusk",TRUE
+"event_window_is_deterministic_function_of_month_index",TRUE

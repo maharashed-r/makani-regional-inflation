@@ -1,0 +1,6 @@
+"check","pass"
+"n_residuals_matches_sample",TRUE
+"no_unexpected_missing",TRUE
+"overall_mean_near_zero",TRUE
+"month_means_near_zero",TRUE
+"region_means_near_zero",TRUE

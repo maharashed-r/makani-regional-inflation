@@ -1,0 +1,2 @@
+"n_regions","n_months","total_obs","obs_per_region_min","obs_per_region_max","balanced","first_date","last_date","n_dropped","dropped_reason"
+13,157,2041,157,157,TRUE,"2013-02-01","2026-02-01",13,"All 13 dropped rows are the structural first-month-per-region observation (2013-01-01), where inflation_mom is undefined (no prior month exists) -- expected, not a data defect."
