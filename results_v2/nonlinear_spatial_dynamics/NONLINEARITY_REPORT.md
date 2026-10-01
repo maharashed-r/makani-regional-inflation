@@ -54,8 +54,8 @@ No evidence of asymmetric positive/negative spatial predictive content.
 
 See `nl_F_A_regime_weight_robustness.csv`, `nl_F_A_regime_definition_robustness.csv`,
 `nl_F_B_spline_robustness.csv`, `nl_F_B_spline_extreme_obs_sensitivity.csv`.
-Section B's nominal significance (Queen K=3, p=0.017) does NOT replicate under KNN weights (p=0.092)
-or at K=6 (p=0.471); it IS present under distance-band weights (p=0.022) and is not driven by extreme
+Section B's nominal significance (Queen K=3, p=0.017) does NOT replicate under KNN weights (p=0.132)
+or at K=6 (p=0.471); it IS present under distance-band weights (p=0.006) and is not driven by extreme
 observations (excluding the top 1% Cook's-distance points leaves it similarly nominal). This is a mixed,
 not-fully-robust picture.
 

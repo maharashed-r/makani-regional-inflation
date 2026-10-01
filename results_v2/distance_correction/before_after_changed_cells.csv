@@ -1,0 +1,95 @@
+"file","row","row_label","column","before","after","abs_change"
+"results_v2/distributed_spatial_lags/tables/dsl_cumulative_Theta3_by_weight.csv",2,"KNN (k=4)","cumulative_estimate","9.52302197625429e-05","0.000365345961665436",0.000270115741902893
+"results_v2/distributed_spatial_lags/tables/dsl_cumulative_Theta3_by_weight.csv",3,"Distance band","cumulative_estimate","-0.0605068633066033","-0.0234928085123781",0.0370140547942252
+"results_v2/distributed_spatial_lags/tables/dsl_cumulative_Theta3_by_weight.csv",2,"KNN (k=4)","std_error","0.0921857730557016","0.0893969488336961",0.00278882422200549
+"results_v2/distributed_spatial_lags/tables/dsl_cumulative_Theta3_by_weight.csv",3,"Distance band","std_error","0.0742601390515162","0.0882388790728241",0.0139787400213079
+"results_v2/distributed_spatial_lags/tables/dsl_cumulative_Theta3_by_weight.csv",2,"KNN (k=4)","z_value","0.00103302512530867","0.00408678334587329",0.00305375822056462
+"results_v2/distributed_spatial_lags/tables/dsl_cumulative_Theta3_by_weight.csv",3,"Distance band","z_value","-0.814795987179988","-0.26624101256986",0.548554974610128
+"results_v2/distributed_spatial_lags/tables/dsl_cumulative_Theta3_by_weight.csv",2,"KNN (k=4)","p_value","0.999175765348191","0.996739227741777",0.00243653760641394
+"results_v2/distributed_spatial_lags/tables/dsl_cumulative_Theta3_by_weight.csv",3,"Distance band","p_value","0.415189098291414","0.790053599027421",0.374864500736007
+"results_v2/distributed_spatial_lags/tables/dsl_cumulative_Theta3_by_weight.csv",2,"KNN (k=4)","ci_low","-0.180588884969413","-0.174852673752379",0.00573621121703399
+"results_v2/distributed_spatial_lags/tables/dsl_cumulative_Theta3_by_weight.csv",3,"Distance band","ci_low","-0.206056735847575","-0.196441011495113",0.009615724352462
+"results_v2/distributed_spatial_lags/tables/dsl_cumulative_Theta3_by_weight.csv",2,"KNN (k=4)","ci_high","0.180779345408938","0.17558336567571",0.005195979733228
+"results_v2/distributed_spatial_lags/tables/dsl_cumulative_Theta3_by_weight.csv",3,"Distance band","ci_high","0.0850430092343684","0.149455394470357",0.0644123852359886
+"results_v2/distributed_spatial_lags/tables/dsl_spatial_weight_robustness.csv",4,"KNN (k=4)","estimate","0.000694323197657656","0.00328042392103778",0.00258610072338012
+"results_v2/distributed_spatial_lags/tables/dsl_spatial_weight_robustness.csv",5,"KNN (k=4)","estimate","-0.00416811635395191","-0.00858241859126804",0.00441430223731613
+"results_v2/distributed_spatial_lags/tables/dsl_spatial_weight_robustness.csv",6,"KNN (k=4)","estimate","0.0035690233760568","0.0056673406318957",0.0020983172558389
+"results_v2/distributed_spatial_lags/tables/dsl_spatial_weight_robustness.csv",7,"Distance band","estimate","-0.00949011329792469","0.0029448373179218",0.0124349506158465
+"results_v2/distributed_spatial_lags/tables/dsl_spatial_weight_robustness.csv",8,"Distance band","estimate","-0.0380794473862859","-0.00285800871907995",0.035221438667206
+"results_v2/distributed_spatial_lags/tables/dsl_spatial_weight_robustness.csv",9,"Distance band","estimate","-0.0129373026223927","-0.02357963711122",0.0106423344888273
+"results_v2/distributed_spatial_lags/tables/dsl_spatial_weight_robustness.csv",4,"KNN (k=4)","std_error","0.0383295134956387","0.0378860687959377",0.000443444699701
+"results_v2/distributed_spatial_lags/tables/dsl_spatial_weight_robustness.csv",5,"KNN (k=4)","std_error","0.0497715522911006","0.0500726612739844",0.000301108982883803
+"results_v2/distributed_spatial_lags/tables/dsl_spatial_weight_robustness.csv",6,"KNN (k=4)","std_error","0.0366748182155137","0.035781648960016",0.000893169255497699
+"results_v2/distributed_spatial_lags/tables/dsl_spatial_weight_robustness.csv",7,"Distance band","std_error","0.0316095217024698","0.0372532204804998",0.00564369877803
+"results_v2/distributed_spatial_lags/tables/dsl_spatial_weight_robustness.csv",8,"Distance band","std_error","0.0410201961541911","0.0369979938626315",0.0040222022915596
+"results_v2/distributed_spatial_lags/tables/dsl_spatial_weight_robustness.csv",9,"Distance band","std_error","0.0334830285546432","0.0360929579050179",0.00260992935037471
+"results_v2/distributed_spatial_lags/tables/dsl_spatial_weight_robustness.csv",4,"KNN (k=4)","z_value","0.0181145841503222","0.0865865481770311",0.0684719640267089
+"results_v2/distributed_spatial_lags/tables/dsl_spatial_weight_robustness.csv",5,"KNN (k=4)","z_value","-0.0837449539362105","-0.171399290009918",0.0876543360737075
+"results_v2/distributed_spatial_lags/tables/dsl_spatial_weight_robustness.csv",6,"KNN (k=4)","z_value","0.0973153665025415","0.158386793136019",0.0610714266334775
+"results_v2/distributed_spatial_lags/tables/dsl_spatial_weight_robustness.csv",7,"Distance band","z_value","-0.300229575988275","0.0790492011143917",0.379278777102667
+"results_v2/distributed_spatial_lags/tables/dsl_spatial_weight_robustness.csv",8,"Distance band","z_value","-0.928309734140441","-0.0772476672570774",0.851062066883364
+"results_v2/distributed_spatial_lags/tables/dsl_spatial_weight_robustness.csv",9,"Distance band","z_value","-0.38638388404082","-0.653302984290511",0.266919100249691
+"results_v2/distributed_spatial_lags/tables/dsl_spatial_weight_robustness.csv",4,"KNN (k=4)","p_value","0.985547443391302","0.931000158738836",0.0545472846524659
+"results_v2/distributed_spatial_lags/tables/dsl_spatial_weight_robustness.csv",5,"KNN (k=4)","p_value","0.93325921458283","0.863909813008553",0.069349401574277
+"results_v2/distributed_spatial_lags/tables/dsl_spatial_weight_robustness.csv",6,"KNN (k=4)","p_value","0.922475953216462","0.874152019971502",0.04832393324496
+"results_v2/distributed_spatial_lags/tables/dsl_spatial_weight_robustness.csv",7,"Distance band","p_value","0.764002046684523","0.936993488641214",0.172991441956691
+"results_v2/distributed_spatial_lags/tables/dsl_spatial_weight_robustness.csv",8,"Distance band","p_value","0.353246926181437","0.93842652191616",0.585179595734723
+"results_v2/distributed_spatial_lags/tables/dsl_spatial_weight_robustness.csv",9,"Distance band","p_value","0.699212383859695","0.51356096888281",0.185651414976885
+"results_v2/distributed_spatial_lags/tables/dsl_spatial_weight_robustness.csv",4,"KNN (k=4)","ci_low","-0.0744315232537942","-0.0709762709190002",0.00345525233479399
+"results_v2/distributed_spatial_lags/tables/dsl_spatial_weight_robustness.csv",5,"KNN (k=4)","ci_low","-0.101720358844509","-0.106724834688277",0.00500447584376799
+"results_v2/distributed_spatial_lags/tables/dsl_spatial_weight_robustness.csv",6,"KNN (k=4)","ci_low","-0.0683136203263501","-0.0644646913297356",0.0038489289966145
+"results_v2/distributed_spatial_lags/tables/dsl_spatial_weight_robustness.csv",7,"Distance band","ci_low","-0.0714447758347656","-0.0700714748238578",0.00137330101090781
+"results_v2/distributed_spatial_lags/tables/dsl_spatial_weight_robustness.csv",8,"Distance band","ci_low","-0.1184790318485","-0.0753740766898376",0.0431049551586624
+"results_v2/distributed_spatial_lags/tables/dsl_spatial_weight_robustness.csv",9,"Distance band","ci_low","-0.0785640385894933","-0.094321834605055",0.0157577960155617
+"results_v2/distributed_spatial_lags/tables/dsl_spatial_weight_robustness.csv",4,"KNN (k=4)","ci_high","0.0758201696491095","0.0775371187610757",0.00171694911196621
+"results_v2/distributed_spatial_lags/tables/dsl_spatial_weight_robustness.csv",5,"KNN (k=4)","ci_high","0.0933841261366053","0.0895599975057413",0.003824128630864
+"results_v2/distributed_spatial_lags/tables/dsl_spatial_weight_robustness.csv",6,"KNN (k=4)","ci_high","0.0754516670784637","0.075799372593527",0.000347705515063301
+"results_v2/distributed_spatial_lags/tables/dsl_spatial_weight_robustness.csv",7,"Distance band","ci_high","0.0524645492389162","0.0759611494597014",0.0234966002207852
+"results_v2/distributed_spatial_lags/tables/dsl_spatial_weight_robustness.csv",8,"Distance band","ci_high","0.0423201370759287","0.0696580592516777",0.027337922175749
+"results_v2/distributed_spatial_lags/tables/dsl_spatial_weight_robustness.csv",9,"Distance band","ci_high","0.0526894333447079","0.047162560382615",0.0055268729620929
+"results_v2/final_robustness/tables/fr_D_spatial_weight_robustness.csv",2,"KNN (k=4)","joint_p_value","0.997910912866101","0.98488653464044",0.013024378225661
+"results_v2/final_robustness/tables/fr_D_spatial_weight_robustness.csv",3,"Distance band","joint_p_value","0.831697917962644","0.894913142660019",0.0632152246973749
+"results_v2/final_robustness/tables/fr_D_spatial_weight_robustness.csv",2,"KNN (k=4)","Theta_3","9.52302197625429e-05","0.000365345961665436",0.000270115741902893
+"results_v2/final_robustness/tables/fr_D_spatial_weight_robustness.csv",3,"Distance band","Theta_3","-0.0605068633066033","-0.0234928085123781",0.0370140547942252
+"results_v2/final_robustness/tables/fr_D_spatial_weight_robustness.csv",2,"KNN (k=4)","ci_low","-0.180588884969413","-0.174852673752379",0.00573621121703399
+"results_v2/final_robustness/tables/fr_D_spatial_weight_robustness.csv",3,"Distance band","ci_low","-0.206056735847575","-0.196441011495113",0.009615724352462
+"results_v2/final_robustness/tables/fr_D_spatial_weight_robustness.csv",2,"KNN (k=4)","ci_high","0.180779345408938","0.17558336567571",0.005195979733228
+"results_v2/final_robustness/tables/fr_D_spatial_weight_robustness.csv",3,"Distance band","ci_high","0.0850430092343684","0.149455394470357",0.0644123852359886
+"results_v2/final_robustness/tables/fr_D_spatial_weight_robustness.csv",2,"KNN (k=4)","R2","0.453744104174884","0.453755039000003",1.09348251190466e-05
+"results_v2/final_robustness/tables/fr_D_spatial_weight_robustness.csv",3,"Distance band","R2","0.453883999332505","0.453810165588021",7.38337444839976e-05
+"results_v2/final_robustness/tables/fr_K_robustness_summary.csv",3,"Spatial-weight matrix (Queen/KNN/distance)","max_p","0.997910912866101","0.98488653464044",0.013024378225661
+"results_v2/nonlinear_spatial_dynamics/tables/nl_F_A_regime_weight_robustness.csv",2,"KNN (k=4)","statistic","2.28423405622639","1.88357959417856",0.40065446204783
+"results_v2/nonlinear_spatial_dynamics/tables/nl_F_A_regime_weight_robustness.csv",3,"Distance band","statistic","2.80718706551211","1.42389432395149",1.38329274156062
+"results_v2/nonlinear_spatial_dynamics/tables/nl_F_A_regime_weight_robustness.csv",2,"KNN (k=4)","p_value_asymptotic","0.515547970074522","0.596918090573526",0.0813701204990039
+"results_v2/nonlinear_spatial_dynamics/tables/nl_F_A_regime_weight_robustness.csv",3,"Distance band","p_value_asymptotic","0.422318164279831","0.699943451303387",0.277625287023556
+"results_v2/nonlinear_spatial_dynamics/tables/nl_F_B_spline_robustness.csv",2,"KNN K=3","statistic","6.43606541280056","5.60711310838867",0.82895230441189
+"results_v2/nonlinear_spatial_dynamics/tables/nl_F_B_spline_robustness.csv",3,"Distance band K=3","statistic","9.65038644950933","12.4776112429413",2.82722479343197
+"results_v2/nonlinear_spatial_dynamics/tables/nl_F_B_spline_robustness.csv",2,"KNN K=3","p_value_asymptotic","0.0922183160196917","0.132370597978968",0.0401522819592763
+"results_v2/nonlinear_spatial_dynamics/tables/nl_F_B_spline_robustness.csv",3,"Distance band K=3","p_value_asymptotic","0.0217841635619562","0.00591393891808324",0.015870224643873
+"results_v2/structural_shocks/tables/ss_J_robustness_weights_by_event.csv",2,"E1","statistic","5.37826953651369","2.46339944727385",2.91487008923984
+"results_v2/structural_shocks/tables/ss_J_robustness_weights_by_event.csv",3,"E1","statistic","4.68579516047725","2.71122762298978",1.97456753748747
+"results_v2/structural_shocks/tables/ss_J_robustness_weights_by_event.csv",5,"E2","statistic","3.73282188388567","4.02977569230797",0.2969538084223
+"results_v2/structural_shocks/tables/ss_J_robustness_weights_by_event.csv",6,"E2","statistic","2.51568533957265","3.42778012215466",0.91209478258201
+"results_v2/structural_shocks/tables/ss_J_robustness_weights_by_event.csv",8,"E3","statistic","6.90005772062943","11.1568432531683",4.25678553253887
+"results_v2/structural_shocks/tables/ss_J_robustness_weights_by_event.csv",9,"E3","statistic","6.63323325438448","41.3231242826315",34.689891028247
+"results_v2/structural_shocks/tables/ss_J_robustness_weights_by_event.csv",2,"E1","p_value_asymptotic","0.146103470420192","0.481941950452959",0.335838480032767
+"results_v2/structural_shocks/tables/ss_J_robustness_weights_by_event.csv",3,"E1","p_value_asymptotic","0.196304517650654","0.438322648280611",0.242018130629957
+"results_v2/structural_shocks/tables/ss_J_robustness_weights_by_event.csv",5,"E2","p_value_asymptotic","0.291797362913589","0.258266791661734",0.033530571251855
+"results_v2/structural_shocks/tables/ss_J_robustness_weights_by_event.csv",6,"E2","p_value_asymptotic","0.472463059500053","0.330250296110801",0.142212763389252
+"results_v2/structural_shocks/tables/ss_J_robustness_weights_by_event.csv",8,"E3","p_value_asymptotic","0.0751524223731484","0.0109073044039912",0.0642451179691572
+"results_v2/structural_shocks/tables/ss_J_robustness_weights_by_event.csv",9,"E3","p_value_asymptotic","0.0845536342309955","5.58452899109726e-09",0.0845536286464665
+"results_v2/tables/lag_spatial_robustness.csv",2,"KNN (k=4)","estimate","0.00257840256695037","0.00654145462104809",0.00396305205409772
+"results_v2/tables/lag_spatial_robustness.csv",3,"Distance band","estimate","-0.00351408920272054","0.00183594664641464",0.00535003584913518
+"results_v2/tables/lag_spatial_robustness.csv",2,"KNN (k=4)","std_error","0.0367864743574813","0.0365776004451234",0.000208873912357903
+"results_v2/tables/lag_spatial_robustness.csv",3,"Distance band","std_error","0.0316303626960328","0.036870315449933",0.0052399527539002
+"results_v2/tables/lag_spatial_robustness.csv",2,"KNN (k=4)","z_value","0.0700910487342203","0.178837718752549",0.108746670018329
+"results_v2/tables/lag_spatial_robustness.csv",3,"Distance band","z_value","-0.111098605997373","0.0497947094840485",0.160893315481421
+"results_v2/tables/lag_spatial_robustness.csv",2,"KNN (k=4)","p_value","0.944121191256456","0.85806512741169",0.0860560638447659
+"results_v2/tables/lag_spatial_robustness.csv",3,"Distance band","p_value","0.911538154152799","0.960285982675118",0.048747828522319
+"results_v2/tables/lag_spatial_robustness.csv",2,"KNN (k=4)","ci_low","-0.069523087173713","-0.0651506422513938",0.0043724449223192
+"results_v2/tables/lag_spatial_robustness.csv",3,"Distance band","ci_low","-0.0655096000869449","-0.070429871635454",0.0049202715485091
+"results_v2/tables/lag_spatial_robustness.csv",2,"KNN (k=4)","ci_high","0.0746798923076138","0.07823355149349",0.0035536591858762
+"results_v2/tables/lag_spatial_robustness.csv",3,"Distance band","ci_high","0.0584814216815038","0.0741017649282833",0.0156203432467795
+"results_v2/tables/spatial_weights_comparison.csv",4,"Distance band (1.05x max nearest-neighbour dist)","n_edges_undirected","27","23",4
+"results_v2/tables/spatial_weights_comparison.csv",4,"Distance band (1.05x max nearest-neighbour dist)","mean_neighbors","4.15384615384615","3.53846153846154",0.61538461538461
+"results_v2/tables/spatial_weights_comparison.csv",4,"Distance band (1.05x max nearest-neighbour dist)","max_neighbors","6","5",1

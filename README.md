@@ -187,6 +187,13 @@ Summarized here; discussed in full in `paper.qmd`'s Limitations section:
 - Only Queen contiguity, KNN (k=4), and a distance-band spatial-weight
   matrix were tested (Queen and Rook are identical on this 13-region map
   and are not treated as independent checks).
+- KNN and distance-band weights use great-circle distances between WGS84
+  region centroids (spdep `longlat = TRUE`); the distance band is 1.05 x the
+  largest nearest-neighbour distance (about 501 km). Up to v1.0 these two
+  matrices used Euclidean distance on longitude/latitude degrees; the
+  post-v1.0 correction and its before/after evidence are in
+  `results_v2/distance_correction/`. Queen contiguity, the primary matrix,
+  does not use distances and is unaffected.
 - Every result is predictive/associational, not causal; verified
   national-shock episodes are tested for *association* with parameter
   instability, not for a causal treatment effect, and two of the three are

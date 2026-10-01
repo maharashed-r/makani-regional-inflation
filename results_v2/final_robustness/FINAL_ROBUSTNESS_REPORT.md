@@ -20,7 +20,7 @@ All exclusion specs (single most influential month, top 3 months, top 1% observa
 
 ## Section D: spatial-weight robustness
 
-Queen p=0.316, KNN p=0.998, Distance p=0.832. Conclusion does not depend on W.
+Queen p=0.316, KNN p=0.985, Distance p=0.895. Conclusion does not depend on W.
 
 ## Section E: dynamic-horizon robustness
 

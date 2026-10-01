@@ -79,6 +79,30 @@ econometric model of inflation. It is retained in this baseline exactly as
 a documented negative/placeholder result, pending future covariate work
 (explicitly out of scope for this baseline).
 
+## 5. Distance metric of the KNN and distance-band matrices (post-release note, 2026-10)
+
+Added after release v1.0.0; no v1.0 file or number is changed by this note.
+
+- In v1.0, the KNN (k=4) and distance-band sensitivity matrices (`07`, and
+  the v2 robustness stages `12`-`16`, `18` as released) were built from region
+  centroids in WGS84 longitude/latitude with **Euclidean distance applied
+  directly to degrees**. The distance-band threshold (1.05 x the largest
+  nearest-neighbour distance) was therefore 4.88 "degrees", which has no
+  physical unit.
+- A later audit identified this as geographically inappropriate: a degree of
+  longitude is about 94-107 km across these latitudes, a degree of latitude
+  about 111 km. Great-circle distances changed one KNN link and removed 8 of
+  54 directed distance-band links.
+- The **primary Queen contiguity specification does not use distances and is
+  unaffected.**
+- The post-v1.0 revision (branch `fix/great-circle-weights-2026-10`) uses
+  great-circle distances (threshold about 501 km, same rule) for the v2
+  stages and documents every changed number in
+  `results_v2/distance_correction/`. The main conclusions did not change;
+  one robustness check (the July 2020 VAT episode under KNN/distance-band
+  weights) gained a documented qualification. The v1 baseline outputs of `07` (e.g. `results/tables/weights_sensitivity.csv`)
+  are kept unchanged as part of this frozen release.
+
 ---
 
 **Summary for any reader of `baseline/v1.0/`:** this baseline detects a

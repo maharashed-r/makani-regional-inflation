@@ -342,6 +342,11 @@ dsl_k3_wcb    <- read.csv("results_v2/distributed_spatial_lags/tables/dsl_k3_wil
 dsl_k6_wcb    <- read.csv("results_v2/distributed_spatial_lags/tables/dsl_k6_wild_bootstrap_joint_and_cumulative.csv")
 nl_family     <- read.csv("results_v2/nonlinear_spatial_dynamics/tables/nl_G_multiple_testing_family.csv")
 ss_family     <- read.csv("results_v2/structural_shocks/tables/ss_I_multiple_testing_family.csv")
+ss_weights    <- read.csv("results_v2/structural_shocks/tables/ss_J_robustness_weights_by_event.csv")
+ss_e3         <- ss_weights[ss_weights$event_id == "E3", ]
+p_text        <- function(p) if (p < 0.001) "p < 0.001" else paste("p =", signif(p, 2))
+ss_e3_queen   <- read.csv("results_v2/structural_shocks/tables/ss_D_wald_wcb_by_event.csv")
+ss_e3_queen   <- ss_e3_queen[ss_e3_queen$event_id == "E3", ]
 st_stationarity <- read.csv("results_v2/stationarity_temporal_dynamics/tables/st_A_stationarity_summary_counts.csv")
 st_seasonal   <- read.csv("results_v2/stationarity_temporal_dynamics/tables/st_C_seasonal_lag12_coefficient.csv")
 fr_loro       <- read.csv("results_v2/final_robustness/tables/fr_B_leave_one_region_out_summary.csv")
@@ -450,7 +455,22 @@ persistence, spatial predictive content, and their combination. Across the
 pre-specified nine-test family (3 episodes x {spatial, own, combined}),
 `r sum(ss_family$sig_raw_05)` of 9 tests were nominally significant at raw
 5%, and `r sum(ss_family$sig_BH_05)` survived Benjamini-Hochberg correction.
-No robust event-conditioned parameter instability is found.
+No robust event-conditioned parameter instability is found. A
+post-audit sensitivity check using geographically corrected great-circle
+distance weights produced nominal evidence of spatial dynamics for the
+July 2020 event under the alternative KNN
+(`r p_text(ss_e3$p_value_asymptotic[ss_e3$weight_spec=="KNN (k=4)"])`)
+and distance-band
+(`r p_text(ss_e3$p_value_asymptotic[ss_e3$weight_spec=="Distance band"])`)
+matrices (Stage 16, Section J; Driscoll-Kraay asymptotic p-values). This
+pattern does not replicate under the prespecified primary Queen matrix
+(`r p_text(ss_e3$p_value_asymptotic[ss_e3$weight_spec=="Queen (primary)"])`)
+or its wild-cluster bootstrap inference
+(`r p_text(ss_e3_queen$p_value_wcb)`, B = `r ss_e3_queen$n_bootstrap_reps`)
+and therefore does not alter the study's primary conclusion. Given the
+event's overlap with the COVID-19 period, the result is treated as a
+matrix-sensitive robustness finding rather than independent evidence of a
+spatial VAT effect.
 
 ### Inflation is stationary; CPI levels are not
 
@@ -596,7 +616,14 @@ produces it:
   that this analysis does not fully explain.
 - **Spatial-weight uncertainty.** Only Queen contiguity, KNN (k=4), and a
   distance-band matrix were tested; Queen and Rook contiguity are identical
-  in this map and are not independent checks. A genuinely different notion
+  in this map and are not independent checks. KNN and distance-band
+  neighbours use great-circle distances between WGS84 region centroids; the
+  distance band is 1.05 times the largest nearest-neighbour distance (about
+  501 km). Versions up to v1.0 applied Euclidean distance to longitude/latitude
+  degrees; correcting this changed the KNN and distance-band robustness
+  numbers; the main conclusions are unchanged, with one added qualification
+  for the July 2020 episode (Stage 16 above; see
+  `results_v2/distance_correction/`). A genuinely different notion
   of "neighbour" (e.g. trade-flow-weighted) was not tested.
 - **No causal identification.** Every result in this paper is a predictive/
   associational test, not a causal design; in particular, the verified
@@ -1130,7 +1157,10 @@ n_weights_total <- nrow(weights_sensitivity)
 
 The Moran's I statistic clears the 5% threshold under `r n_weights_sig` of
 the `r n_weights_total` weight matrix specifications tested (Queen and Rook
-contiguity; not KNN or distance band).
+contiguity; not KNN or distance band). Table A4 is part of the frozen v1.0
+exploratory baseline: its KNN and distance-band matrices use Euclidean
+distance on longitude/latitude degrees and are kept unchanged as a
+historical record (see `baseline/v1.0/METHODOLOGY_NOTE.md`, section 5).
 
 *A note on spatial regression (SAR/SEM):* we also fitted intercept-only
 Spatial Lag and Spatial Error models as a further check. With no regional
