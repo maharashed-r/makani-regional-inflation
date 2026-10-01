@@ -1,0 +1,4 @@
+"matrix","directed_links_before","directed_links_after","links_removed","links_added","components_before","components_after","min_card_before","max_card_before","min_card_after","max_card_after","threshold_before","threshold_unit_before","threshold_after","threshold_unit_after"
+"KNN k=4",52,52,"R09->R07","R09->R12",1,1,4,4,4,4,NA,NA,NA,NA
+"KNN k=1 (defines the band rule)",13,13,"","",3,3,1,1,1,1,NA,NA,NA,NA
+"Distance band (1.05 x max nearest-neighbour distance)",54,46,"R01->R10; R02->R08; R03->R09; R08->R02; R09->R03; R10->R01; R10->R12; R12->R10","",1,1,1,6,1,5,4.88391904281293,"Euclidean degrees (no physical unit)",500.880391415783,"great-circle km"
