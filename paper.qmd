@@ -345,6 +345,8 @@ ss_family     <- read.csv("results_v2/structural_shocks/tables/ss_I_multiple_tes
 ss_weights    <- read.csv("results_v2/structural_shocks/tables/ss_J_robustness_weights_by_event.csv")
 ss_e3         <- ss_weights[ss_weights$event_id == "E3", ]
 p_text        <- function(p) if (p < 0.001) "p < 0.001" else paste("p =", signif(p, 2))
+ss_e3_queen   <- read.csv("results_v2/structural_shocks/tables/ss_D_wald_wcb_by_event.csv")
+ss_e3_queen   <- ss_e3_queen[ss_e3_queen$event_id == "E3", ]
 st_stationarity <- read.csv("results_v2/stationarity_temporal_dynamics/tables/st_A_stationarity_summary_counts.csv")
 st_seasonal   <- read.csv("results_v2/stationarity_temporal_dynamics/tables/st_C_seasonal_lag12_coefficient.csv")
 fr_loro       <- read.csv("results_v2/final_robustness/tables/fr_B_leave_one_region_out_summary.csv")
@@ -453,17 +455,22 @@ persistence, spatial predictive content, and their combination. Across the
 pre-specified nine-test family (3 episodes x {spatial, own, combined}),
 `r sum(ss_family$sig_raw_05)` of 9 tests were nominally significant at raw
 5%, and `r sum(ss_family$sig_BH_05)` survived Benjamini-Hochberg correction.
-No robust event-conditioned parameter instability is found. One
-qualification: in the weight-robustness check (Stage 16, Section J;
-Driscoll-Kraay asymptotic p-values, no bootstrap), the spatial-dynamics
-test for the July 2020 VAT increase is nominally significant under KNN
+No robust event-conditioned parameter instability is found. A
+post-audit sensitivity check using geographically corrected great-circle
+distance weights produced nominal evidence of spatial dynamics for the
+July 2020 event under the alternative KNN
 (`r p_text(ss_e3$p_value_asymptotic[ss_e3$weight_spec=="KNN (k=4)"])`)
-and distance-band weights
-(`r p_text(ss_e3$p_value_asymptotic[ss_e3$weight_spec=="Distance band"])`),
-but not under the primary Queen weights
-(`r p_text(ss_e3$p_value_asymptotic[ss_e3$weight_spec=="Queen (primary)"])`).
-This episode overlaps the COVID-19 period, and the result is not part of
-the pre-specified corrected family above.
+and distance-band
+(`r p_text(ss_e3$p_value_asymptotic[ss_e3$weight_spec=="Distance band"])`)
+matrices (Stage 16, Section J; Driscoll-Kraay asymptotic p-values). This
+pattern does not replicate under the prespecified primary Queen matrix
+(`r p_text(ss_e3$p_value_asymptotic[ss_e3$weight_spec=="Queen (primary)"])`)
+or its wild-cluster bootstrap inference
+(`r p_text(ss_e3_queen$p_value_wcb)`, B = `r ss_e3_queen$n_bootstrap_reps`)
+and therefore does not alter the study's primary conclusion. Given the
+event's overlap with the COVID-19 period, the result is treated as a
+matrix-sensitive robustness finding rather than independent evidence of a
+spatial VAT effect.
 
 ### Inflation is stationary; CPI levels are not
 
