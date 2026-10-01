@@ -151,11 +151,16 @@ sf_frame <- st_as_sf(sf_frame)
 stopifnot(identical(sf_frame$region_id, region_order), nrow(sf_frame) == 13, !any(st_is_empty(sf_frame)))
 
 nb_queen  <- poly2nb(sf_frame, queen = TRUE)
+# Distance-based weights (post-v1.0 correction, 2026-10): the centroids are WGS84
+# longitude/latitude (EPSG:4326), so KNN and distance-band neighbours use
+# great-circle distances in km (spdep longlat = TRUE). The distance-band rule is
+# unchanged: 1.05 x the maximum great-circle nearest-neighbour distance.
+# Before this correction, Euclidean distance was applied directly to degrees.
 coords    <- st_coordinates(st_centroid(st_geometry(sf_frame)))
-nb_knn4   <- knn2nb(knearneigh(coords, k = 4))
-nb_knn1   <- knn2nb(knearneigh(coords, k = 1))
-band_dist <- max(unlist(nbdists(nb_knn1, coords))) * 1.05
-nb_dist   <- dnearneigh(coords, 0, band_dist)
+nb_knn4   <- knn2nb(knearneigh(coords, k = 4, longlat = TRUE))
+nb_knn1   <- knn2nb(knearneigh(coords, k = 1, longlat = TRUE))
+band_dist <- max(unlist(nbdists(nb_knn1, coords, longlat = TRUE))) * 1.05
+nb_dist   <- dnearneigh(coords, 0, band_dist, longlat = TRUE)
 
 lw_queen <- nb2listw(nb_queen, style = "W", zero.policy = TRUE)
 lw_knn   <- nb2listw(nb_knn4,  style = "W", zero.policy = TRUE)
